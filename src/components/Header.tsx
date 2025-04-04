@@ -1,4 +1,4 @@
-import careeroote from '../assets/caree roots .jpg';
+import headerimg from '../assets/headerimg.jpg';
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
@@ -95,7 +95,7 @@ export function Header() {
                 </div>
               </div>
               <div className="mt-8 md:mt-0 md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Career growth illustration" className="rounded-lg shadow-lg" />
+                <img src={headerimg} alt="Career growth illustration" className="rounded-lg shadow-lg" />
               </div>
             </div>
           </div>
